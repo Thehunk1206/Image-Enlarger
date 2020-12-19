@@ -21,7 +21,7 @@ def downsample_img(image_path: str, factor: float = 0.5):
 
 def save_image(image: np.ndarray, base_path: str = "samples/"):
     save = cv2.imwrite(
-        base_path+"downsampled_"+str(factor)+args["image"].split(os.path.sep)[-1], image)
+        base_path+"downsampled_"+"0,"+str(factor).split(".")[-1]+args["image"].split(os.path.sep)[-1], image)
     return save
 
 
