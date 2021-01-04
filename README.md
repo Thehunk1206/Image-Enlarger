@@ -77,3 +77,10 @@ Resuls has been compared between classical Bicubic Interpolation method and Deep
 * scale x8
 ![result10](https://github.com/Thehunk1206/Image-Enlarger/blob/master/output/LAPSRN_x8_1.png)
 ![result11](https://github.com/Thehunk1206/Image-Enlarger/blob/master/output/LAPRN_x8_2.png)
+
+
+# Paper
+* [EDSR](https://arxiv.org/pdf/1707.02921.pdf)
+* [ESPCN](https://arxiv.org/pdf/1609.05158.pdf)
+* [FRSCNN](https://arxiv.org/pdf/1608.00367.pdf)
+* [LapSRN](https://arxiv.org/pdf/1710.01992.pdf)
