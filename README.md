@@ -5,6 +5,12 @@ Increasing spatial resolution of an image using Deep learining based super resol
 
 ### Usage
 
+* Note: In order to apply OpenCV super resolution, you must have OpenCV contrib 4.3+ installed on your system
+You can also use python package manager install using pip command.
+```
+$ pip install opencv-contrib-python
+```
+
 - For image super resolution
 ```
 usage: super_res_opencv.py [-h] -m MODEL -i IMAGE [-B BICUBIC]
